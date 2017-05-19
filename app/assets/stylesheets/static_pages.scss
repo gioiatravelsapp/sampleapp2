@@ -1,3 +1,120 @@
-//
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+	font-family: sans-serif;
+}
+.textbody {
+	margin-top: 50px;
+}
+h1, h2, h3, p, footer {
+	text-align: center;
+	margin-top: 90px;
+}
+.textbody div {
+	padding: 0;
+}
+.index {
+}
+.index h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 90px;
+}
+
+
+.index h2 {
+	margin-bottom: 30px;
+}
+div .row {
+	background-color: #3A3333;
+}
+.col-md-4, .col-sm-6, .col-xs-12 {
+	border: 15px solid #3A3333;
+}
+.about {
+	background-image: image-url("/assets/bikepattern.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	height: 100vh;
+}
+.abouttext {
+	background-color: #3A3333;
+	padding:50px;
+	margin: 4vh;
+	border: 2px solid white;
+
+}
+.abouttext p {
+	padding: 0vh 4vh;
+}
+.abouttext h1 {
+	text-transform: uppercase;
+}
+.abouttext a {
+	color: white;
+	text-decoration: underline;
+}
+.abouttext a:hover {
+	color: navajowhite;
+}
+.contact {
+	background-image: image-url("/assets/streetbike_min.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-shadow: 2px 2px 2px black;
+	color: white;
+	height: 100vh;
+	padding-top: 60px;
+}
+.contact h1 {
+	text-transform: uppercase;
+}
+.contact h2, h3 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.contact p {
+	font-size: 18px;
+}
+.contact a {
+	color: white;
+}
+.contact a:hover {
+	color: navajowhite;
+	text-decoration: none;
+}
+.glyphicon {
+	padding-right: 5px;
+}
+.contactinfo {
+	background-color: #3A3333;
+	padding: 10px 0px 6px;
+	border: 2px solid white;
+	box-shadow: 2px 2px 2px black;
+}
+.contactinfo p {
+	margin-top: 10px;
+}
+.adress {
+	margin-top: 25px;
+}
+.about {
+	height: 100%;
+	background-color: #3A3333;
+	color: white;
+	padding-top: 25px;
+}
+.about p {
+	margin: 50px 0px;
+	font-size: 18px;
+}
+footer {
+	background-color: black;
+	color: lightgrey;
+	width: inherit;
+}
+
